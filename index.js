@@ -1,0 +1,1 @@
+console.log("hello from node, lets go to nuxt js")
