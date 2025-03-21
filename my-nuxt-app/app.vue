@@ -1,3 +1,9 @@
 <template>
-  <h1>Hello, World!</h1>
+  <div>
+    <h1>{{ message }}</h1>
+  </div>
 </template>
+
+<script setup>
+const { data: message } = await useFetch('/api/hello');
+</script>
